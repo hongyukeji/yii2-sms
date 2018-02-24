@@ -4,8 +4,8 @@
 
 > 碎碎念：没啥好说的，别人写的扩展组件，总是没有自己写的用起来顺手。方便自己，造福他人。
 
-[![Latest Stable Version](https://poser.pugx.org/hongyukeji/yii2-sms/v/stable.png)](https://packagist.org/packages/hongyukeji/ebestmall)
-[![Total Downloads](https://poser.pugx.org/hongyukeji/yii2-sms/downloads.png)](https://packagist.org/packages/hongyukeji/ebestmall)
+[![Latest Stable Version](https://poser.pugx.org/hongyukeji/yii2-sms/v/stable.png)](https://packagist.org/packages/hongyukeji/yii2-sms)
+[![Total Downloads](https://poser.pugx.org/hongyukeji/yii2-sms/downloads.png)](https://packagist.org/packages/hongyukeji/yii2-sms)
 
 
 ## 安装
