@@ -22,7 +22,7 @@ $ composer require hongyukeji/yii2-sms
 
 > 云片短信配置参数获取教程 https://www.yunpian.com/doc/zh_CN/introduction/demos/php.html
 
-```
+```php
 return [
     'components' => [
     
