@@ -13,7 +13,7 @@
  * ============================================================================
  */
 
-namespace HongYuKeJi\Components\sms\sdk;
+namespace HongYuKeJi\Components\Sms\sdk;
 
 header("Content-Type:text/html;charset=utf-8");
 

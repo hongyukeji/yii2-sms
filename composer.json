@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HongYuKeJi\\Components\\sms": "src/"
+            "HongYuKeJi\\Components\\Sms": "src/"
         }
     }
 }

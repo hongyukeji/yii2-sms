@@ -12,7 +12,7 @@
  * ============================================================================
  */
 
-namespace HongYuKeJi\Components\sms;
+namespace HongYuKeJi\Components\Sms;
 
 use Yii;
 use yii\base\Component;
@@ -26,27 +26,6 @@ class SendSms extends Component
 
     public function init()
     {
-        /*$this->config = [
-            'sms' => [
-                'default' => 'aliSms',    // 默认短信
-                'aliSms' => [
-                    'accessKeyId' => '',
-                    'accessKeySecret' => '',
-                    'signName' => '',
-                    'templateCode' => [
-                        'verificationCode' => '',
-                    ],
-                ],
-                'yunpianSms' => [
-                    'apikey' => '',
-                    'signName' => '',
-                    'templateCode' => [
-                        'verificationCode' => '',
-                    ],
-                ],
-            ],
-        ];*/
-
         $this->defaultSms = $this->config['default'];
     }
 
@@ -73,6 +52,8 @@ class SendSms extends Component
     }
 
     /**
+     * 阿里短信
+     *
      * @param $templateCode
      * @param $phoneNumbers
      * @param $templateParam
@@ -110,6 +91,8 @@ class SendSms extends Component
     }
 
     /**
+     * 云片短信
+     *
      * @param $templateCode
      * @param $phoneNumbers
      * @param $templateParam
@@ -149,6 +132,7 @@ class SendSms extends Component
 
     /**
      * 云片短信处理手机号
+     *
      * @param $array
      * @return null|string
      */
@@ -169,6 +153,7 @@ class SendSms extends Component
 
     /**
      * 云片短信处理模板值
+     *
      * @param $array
      * @return null|string
      */
