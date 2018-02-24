@@ -23,33 +23,35 @@ $ composer require hongyukeji/yii2-sms
 > 云片短信配置参数获取教程 https://www.yunpian.com/doc/zh_CN/introduction/demos/php.html
 
 ```
-'components' => [
-
-    ```
-    'sms' => [
-        'class' => 'HongYuKeJi\Components\Sms\SendSms',
-        'config' => [
-            'default' => 'aliSms',    // 默认短信
-            'aliSms' => [
-                'accessKeyId' => '',
-                'accessKeySecret' => '',
-                'signName' => '',
-                'templateCode' => [
-                    'verificationCode' => '',
+return [
+    'components' => [
+    
+        ```
+        'sms' => [
+            'class' => 'HongYuKeJi\Components\Sms\SendSms',
+            'config' => [
+                'default' => 'aliSms',    // 默认短信
+                'aliSms' => [
+                    'accessKeyId' => '',
+                    'accessKeySecret' => '',
+                    'signName' => '',
+                    'templateCode' => [
+                        'verificationCode' => '',
+                    ],
                 ],
-            ],
-            'yunpianSms' => [
-                'apikey' => '',
-                'signName' => '',
-                'templateCode' => [
-                    'verificationCode' => '',
+                'yunpianSms' => [
+                    'apikey' => '',
+                    'signName' => '',
+                    'templateCode' => [
+                        'verificationCode' => '',
+                    ],
                 ],
             ],
         ],
+        
+        ```
     ],
-    
-    ```
-],
+];
 ```
 
 ## 使用
