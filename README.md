@@ -81,7 +81,7 @@ if ($result['code'] == '0') {
 
 ## 关于
 
-* Http： www.hongyuvip.com
+* Site：www.hongyuvip.com
 * Author：Shadow
 * QQ：1527200768
 * Phone：13952101395
