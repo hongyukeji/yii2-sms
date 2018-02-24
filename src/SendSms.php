@@ -16,8 +16,8 @@ namespace HongYuKeJi\Components\Sms;
 
 use Yii;
 use yii\base\Component;
-use HongYuKeJi\Components\sms\sdk\AliSmsClient;
-use HongYuKeJi\Components\sms\sdk\YunpianSmsClient;
+use HongYuKeJi\Components\Sms\sdk\AliSmsClient;
+use HongYuKeJi\Components\Sms\sdk\YunpianSmsClient;
 
 class SendSms extends Component
 {
