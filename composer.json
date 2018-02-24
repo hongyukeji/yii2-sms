@@ -1,7 +1,6 @@
 {
     "name": "hongyukeji/yii2-sms",
     "description": "This is a SMS sending component.",
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +8,7 @@
             "email": "admin@hongyuvip.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.6"
