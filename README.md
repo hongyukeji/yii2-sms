@@ -57,9 +57,6 @@ $ composer require hongyukeji/yii2-sms
 > 具体使用，请阅读 src/SendSms.php 文件
 
 ```
-# 返回格式: ['code'=>'...','message'=>'...']
-# code返回码说明: 0-发送成功, 1-发送失败
-
 $result = Yii::$app->sms->send(
     'verificationCode',
     '13800138000',
@@ -71,4 +68,7 @@ if ($result['code'] == '0') {
 } else {
     echo '发送失败: ' . $result['message'];
 }
+
+# 返回格式: ['code'=>'...','message'=>'...']
+# code返回码说明: 0-发送成功, 1-发送失败
 ```
