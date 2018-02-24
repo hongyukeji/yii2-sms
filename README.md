@@ -11,7 +11,11 @@
 ## 安装
 
 ```
+# 生产环境
 $ composer require hongyukeji/yii2-sms
+
+# 开发环境
+$ composer require hongyukeji/yii2-sms dev-master
 ```
 
 ## 配置
