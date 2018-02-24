@@ -1,6 +1,7 @@
 {
     "name": "hongyukeji/yii2-sms",
     "description": "This is a SMS sending component.",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HongYuKeJi\\Components\\Sms": "src/"
+            "HongYuKeJi\\Components\\Sms": "src"
         }
     }
 }
