@@ -2,7 +2,11 @@
 
 > Yii2 短信扩展组件，目前支持阿里短信、云片短信，设置默认短信，会自动切换短信发送方式。
 
-> 碎碎念：没啥好说的，别人写的扩展组件总是没有自己写的用起来顺手。方便自己，造福他人。
+> 碎碎念：没啥好说的，别人写的扩展组件，总是没有自己写的用起来顺手。方便自己，造福他人。
+
+[![Latest Stable Version](https://poser.pugx.org/hongyukeji/yii2-sms/v/stable.png)](https://packagist.org/packages/hongyukeji/ebestmall)
+[![Total Downloads](https://poser.pugx.org/hongyukeji/yii2-sms/downloads.png)](https://packagist.org/packages/hongyukeji/ebestmall)
+
 
 ## 安装
 
