@@ -30,7 +30,7 @@ $ composer require hongyukeji/yii2-sms dev-master
 return [
     'components' => [
     
-        ```
+        // ```
         'sms' => [
             'class' => 'HongYuKeJi\Components\Sms\SendSms',
             'config' => [
@@ -53,7 +53,7 @@ return [
             ],
         ],
         
-        ```
+        // ```
     ],
 ];
 ```
