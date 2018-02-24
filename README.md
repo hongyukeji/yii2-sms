@@ -78,3 +78,11 @@ if ($result['code'] == '0') {
 // 返回格式: ['code'=>'...','message'=>'...']
 // code返回码说明: 0-发送成功, 1-发送失败
 ```
+
+## 关于
+
+* Http： www.hongyuvip.com
+* Author：Shadow
+* QQ：1527200768
+* Phone：13952101395
+* Email：admin@hongyuvip.com
