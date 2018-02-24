@@ -22,9 +22,9 @@ $ composer require hongyukeji/yii2-sms dev-master
 
 * main.php / web.php 
 
-> 阿里短信配置参数获取教程 https://help.aliyun.com/document_detail/59210.html
+> 阿里短信教程 https://help.aliyun.com/document_detail/59210.html
 
-> 云片短信配置参数获取教程 https://www.yunpian.com/doc/zh_CN/introduction/demos/php.html
+> 云片短信教程 https://www.yunpian.com/doc/zh_CN/introduction/demos/php.html
 
 ```php
 return [
