@@ -1,6 +1,6 @@
 <?php
 /**
- * eBestMall - 短信组件
+ * 鸿宇科技 - 短信组件
  * ============================================================================
  * Copyright 2015-2018 HongYuKeJi.Co.Ltd. All rights reserved.
  * Http://www.hongyuvip.com
